@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/4243021-abstract-template-background-white-and-bright-blue-square-overlapping-with-halftone-and-texture-gratis-vetor.jpg);
+    background-size: cover;
+    background-position: top center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.conteudo h1{
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+div.conteudo{
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.479);
+    padding: 50px;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 20px;
+}
+
+div.conteudo label{
+    display: block;
+   color: white;
+}
+
+div.conteudo input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 1px black;
+}
+
+
+div.conteudo button{
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px;
+    background-color: cyan;
+    color: whitesmoke;
+    font-size: 1.1em;
+    border: none;
+    font-weight: bolder;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 3px 3px 1px black;
+}
+
+div.conteudo button:hover{
+    background-color: rgba(14, 226, 155, 0.747);
+}
+
+div.conteudo p{
+    color: white;
+   margin-top: 22px;
+   font-size: 1.1em;
+}
+
+div.conteudo a{
+    text-decoration: none;
+    color: aqua;
+    font-weight: bolder;
+}
+
+div.conteudo a:hover{
+    text-decoration: underline;
+    background-color: aquamarine;
+}
